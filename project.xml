@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+	
+	<meta title="HaxeWalker" package="com.example.haxewalker" version="1.0.0" company="Company Name" />
+	<app main="Main" path="Export" file="HaxeWalker" />
+
+	<window width="320" height="240" orientation="portrait" fps="60" background="0xFFFFFF" resizable="false" borderless="false" vsync="false" fullscreen="false" antialiasing="4"	/>
+	
+	<source path="Source" />
+	
+	<haxelib name="openfl" />
+	
+	<assets path="Assets" rename="assets" exclude="openfl.svg" />
+	<icon path="Assets/openfl.svg" />
+	
+</project>
